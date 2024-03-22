@@ -33,14 +33,18 @@ public class UserController {
         userService.excluir(id);
     }
     // Utilizando consultas personalizadas
+
+    //http://localhost:8080/users/buscarPorNome/joao
     @GetMapping("/buscarPorNome/{nome}")
     public List<UserEntity> buscarUsuariosPorNome(@PathVariable String nome) {
         return userService.buscarPorNome(nome);
     }
+    //http://localhost:8080/users/buscarPorEmail/joao@gmail.com
     @GetMapping("/buscarPorEmail/{email}")
     public List<UserEntity> buscarUsuariosPorEmail(@PathVariable String email) {
         return userService.buscarPorEmail(email);
     }
+    //http://localhost:8080/users/buscarPorNomeEEmail?nome=joao&email=joao@gmail.com
     @GetMapping("/buscarPorNomeEEmail")
     public List<UserEntity> buscarUsuariosPorNomeEEmail(@RequestParam("nome") String nome, @RequestParam("email") String email) {
         return userService.buscarPorNomeEEmail(nome, email);
@@ -49,6 +53,7 @@ public class UserController {
     public List<UserEntity> buscarUsuariosPorNomeQueComecaCom(@PathVariable String prefixo) {
         return userService.buscarPorNomeQueComecaCom(prefixo);
     }
+    //http://localhost:8080/users/buscarPorNomeQueContem/joa
     @GetMapping("/buscarPorNomeQueContem/{contem}")
     public List<UserEntity> buscarUsuariosPorNomeQueContem(@PathVariable String contem) {
         return userService.buscarPorNomeQueContem(contem);
