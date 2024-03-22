@@ -32,10 +32,25 @@ public class UserController {
     public void excluir(@PathVariable String id) {
         userService.excluir(id);
     }
-
     // Utilizando consultas personalizadas
     @GetMapping("/buscarPorNome/{nome}")
     public List<UserEntity> buscarUsuariosPorNome(@PathVariable String nome) {
         return userService.buscarPorNome(nome);
+    }
+    @GetMapping("/buscarPorEmail/{email}")
+    public List<UserEntity> buscarUsuariosPorEmail(@PathVariable String email) {
+        return userService.buscarPorEmail(email);
+    }
+    @GetMapping("/buscarPorNomeEEmail")
+    public List<UserEntity> buscarUsuariosPorNomeEEmail(@RequestParam("nome") String nome, @RequestParam("email") String email) {
+        return userService.buscarPorNomeEEmail(nome, email);
+    }
+    @GetMapping("/buscarPorNomeQueComecaCom/{prefixo}")
+    public List<UserEntity> buscarUsuariosPorNomeQueComecaCom(@PathVariable String prefixo) {
+        return userService.buscarPorNomeQueComecaCom(prefixo);
+    }
+    @GetMapping("/buscarPorNomeQueContem/{contem}")
+    public List<UserEntity> buscarUsuariosPorNomeQueContem(@PathVariable String contem) {
+        return userService.buscarPorNomeQueContem(contem);
     }
 }
