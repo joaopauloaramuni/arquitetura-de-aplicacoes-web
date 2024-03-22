@@ -49,6 +49,7 @@ public class UserController {
     public List<UserEntity> buscarUsuariosPorNomeEEmail(@RequestParam("nome") String nome, @RequestParam("email") String email) {
         return userService.buscarPorNomeEEmail(nome, email);
     }
+    //http://localhost:8080/users/buscarPorNomeQueComecaCom/j
     @GetMapping("/buscarPorNomeQueComecaCom/{prefixo}")
     public List<UserEntity> buscarUsuariosPorNomeQueComecaCom(@PathVariable String prefixo) {
         return userService.buscarPorNomeQueComecaCom(prefixo);
