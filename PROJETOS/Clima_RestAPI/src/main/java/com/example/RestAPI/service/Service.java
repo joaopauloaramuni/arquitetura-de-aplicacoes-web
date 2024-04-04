@@ -5,7 +5,7 @@ import org.springframework.web.client.RestTemplate;
 public class Service {
     public String preverTempo() {
         String dadosMeteorologicos = "";
-        String apiUrl = "http://apiadvisor.climatempo.com.br/api/v1/weather/locale/6879/current?token=9fe25332679ebce952fdd9f7f9a83c3e";
+        String apiUrl = "https://apiadvisor.climatempo.com.br/api/v1/anl/synoptic/locale/BR?token=9fe25332679ebce952fdd9f7f9a83c3e";
 
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<String> responseEntity = restTemplate.getForEntity(apiUrl, String.class);
