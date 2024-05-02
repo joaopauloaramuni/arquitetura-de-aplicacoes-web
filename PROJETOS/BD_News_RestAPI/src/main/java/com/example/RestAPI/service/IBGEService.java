@@ -27,38 +27,43 @@ public class IBGEService {
         }else{
             dados = "Falha ao obter dados, Código de status " + responseEntity.getStatusCode();
         }
+
         return dados;
     }
 
     public String consultarNoticias() {
-
         String news = consultarUrl("https://servicodados.ibge.gov.br/api/v3/noticias/?tipo=noticia");
-
-        NewsEntity objNews = new NewsEntity();
-        objNews.setNoticias(news);
-        inserirNews(objNews);
-
+        inserirNews(news);
         return news;
     }
+
+    private void inserirNews(String news) {
+        NewsEntity objNews = new NewsEntity();
+        objNews.setNoticias(news);
+        inserirNewsRepository(objNews);
+    }
+
     public String consultarReleases() {
         String releases = consultarUrl("https://servicodados.ibge.gov.br/api/v3/noticias/?tipo=noticia");
+        inserirReleases(releases);
+        return releases;
+    }
 
+    private void inserirReleases(String releases) {
         ReleasesEntity objReleases = new ReleasesEntity();
         objReleases.setReleases(releases);
-        inserirReleases(objReleases);
-
-        return releases;
+        inserirReleasesRepository(objReleases);
     }
 
     public String consultarNoticiasEReleases() {
         return consultarUrl("https://servicodados.ibge.gov.br/api/v3/noticias");
     }
 
-    public NewsEntity inserirNews(NewsEntity news) {
+    public NewsEntity inserirNewsRepository(NewsEntity news) {
         return newsRepository.save(news);
     }
 
-    public ReleasesEntity inserirReleases(ReleasesEntity releases) {
+    public ReleasesEntity inserirReleasesRepository(ReleasesEntity releases) {
         return releasesRepository.save(releases);
     }
 
