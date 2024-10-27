@@ -116,7 +116,7 @@ cd <NOME_DO_DIRETORIO>
 
 3. Execute o aplicativo Spring Boot:
 ```bash
-   ./mvnw spring-boot:run
+./mvnw spring-boot:run
 ```
 
 4. Faça uma requisição POST para o endpoint /api/videos/download
