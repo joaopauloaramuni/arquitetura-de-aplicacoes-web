@@ -3,12 +3,14 @@
 Este é um projeto simples para baixar vídeos do YouTube utilizando a biblioteca `yt_dlp`, uma ferramenta poderosa que facilita o download de vídeos na melhor qualidade disponível. Este projeto baixa o vídeo e o salva com o título original do vídeo.
 
 ## Estrutura do Projeto
+```
 application
 └── YouTubeVideoDownloaderApplication.java
 controller
 └── YouTubeVideoDownloaderController.java
 service
 └── YouTubeVideoDownloaderService.java
+```
 
 ## Dependências
 
