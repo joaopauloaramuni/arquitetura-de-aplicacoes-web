@@ -114,8 +114,11 @@ Define o codificador de senhas a ser utilizado na aplicação, utilizando o BCry
 
 ## Urls do projeto:
 http://localhost:8080/login
+
 http://localhost:8080/login?logout=true
+
 http://localhost:8080/home
+
 http://localhost:8080/admin
 
 ## Licença
