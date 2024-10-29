@@ -111,8 +111,8 @@ A interface gráfica permite que o usuário insira o link do vídeo, visualize e
 |:------------------------:|
 |         Download         |
 
-- Obs.: A tela de upload segue o mesmo padrão.
 - Exemplo de resultado final: Download completo: 25,09 MB em 00:00:03 segundos a 57,18 Mbps
+- Obs.: A tela de upload segue o mesmo padrão.
 
 **Exemplo de Uso**
 
