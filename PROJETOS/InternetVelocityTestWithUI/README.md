@@ -104,7 +104,7 @@ A interface gráfica permite que o usuário insira o link do vídeo, visualize e
 
 - **Tela de Download**: Contém o TextArea para exibir as informações sobre o teste de velocidade.
 
-| <img src="imgs/download.png" alt="Download" width="200"/> |
+| <img src="imgs/download.png" alt="Download" width="600"/> |
 |:------------------------:|
 |         Download         |
 
