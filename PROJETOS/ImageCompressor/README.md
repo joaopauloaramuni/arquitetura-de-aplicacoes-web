@@ -46,5 +46,7 @@ private void saveCompressedImage(byte[] imageData) throws IOException
 ```
 Esse método salva a imagem comprimida em um arquivo na pasta `images`.
 
+No exemplo apresentado, o arquivo original `image.jpg`, com um tamanho de 3.2 MB, foi comprimido para `compressed_image.jpg`, que agora ocupa apenas 893 KB. Essa compressão foi realizada utilizando um parâmetro de qualidade de 0.5, demonstrando uma redução significativa no tamanho do arquivo, mantendo uma qualidade aceitável da imagem.
+
 ## Licença
 Este projeto é licenciado sob a Licença MIT.
