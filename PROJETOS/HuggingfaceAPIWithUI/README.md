@@ -67,7 +67,7 @@ A interface gráfica permite que o usuário faça upload de imagens para compres
 
 - **Tela de Home**: A tela inicial apresenta um formulário onde o usuário pode selecionar uma imagem para compressão, especificar a qualidade desejada e iniciar o processo. Além disso, há uma área para exibir a imagem comprimida após o processamento, bem como um botão para download.
 
-| <img src="images/home2.png" alt="Home" width="600"/> |
+| <img src="imagens/home2.png" alt="Home" width="600"/> |
 |:------------------------:|
 |         Home         |
 
