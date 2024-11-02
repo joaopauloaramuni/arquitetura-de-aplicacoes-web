@@ -6,6 +6,7 @@ Este projeto implementa uma API para busca de discussões no Reddit, utilizando 
 
 ### GET /reddit/discussions/{query}
 Comunidade default: brdev
+
 Exemplo: http://localhost:8080/reddit/discussions/engenharia%20de%20software
 
 ### GET /reddit/discussions/{comunity}/{query}
