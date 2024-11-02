@@ -48,6 +48,7 @@ Este projeto implementa uma API para busca de perguntas no Stack Overflow utiliz
 ### GET /stackoverflow/search/{query}
 
 Exemplo local: http://localhost:8080/stackoverflow/search/nullpointerexception%20java
+
 Exemplo na API: https://api.stackexchange.com/2.3/search?order=desc&sort=activity&site=stackoverflow&intitle=nullpointerexception%20java
 
 - **query**: texto da busca, por exemplo: `nullpointerexception%20java`.
