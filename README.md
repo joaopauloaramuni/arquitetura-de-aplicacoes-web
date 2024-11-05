@@ -1,6 +1,10 @@
 # arquitetura-de-aplicacoes-web
 Repo Arquitetura de Aplicações Web
 
+Disciplina do cursos de Ciência da Computação, Sistemas de Informação e Análise e Desenvolvimento de Sistemas do Centro Universitário Newton Paiva
+
+- 1°Sem 2024
+
 https://www.jetbrains.com/idea/download/
 <br>https://www.jetbrains.com/shop/eform/students
 <br>https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
