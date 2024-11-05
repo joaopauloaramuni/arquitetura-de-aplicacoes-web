@@ -1,7 +1,7 @@
 # arquitetura-de-aplicacoes-web
 Repo Arquitetura de Aplicações Web
 
-Disciplina do cursos de Ciência da Computação, Sistemas de Informação e Análise e Desenvolvimento de Sistemas do Centro Universitário Newton Paiva
+Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e Análise e Desenvolvimento de Sistemas do Centro Universitário Newton Paiva
 
 - 1°Sem 2024
 
