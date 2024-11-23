@@ -6,7 +6,7 @@ A funcionalidade principal do projeto é a detecção da nota musical gerada pel
 
 ## Captura de Tela
 
-| <img src="imgs/home.png" alt="Home" width="800"/> |
+| <img src="imgs/home.png" alt="Home" width="1200"/> |
 |:-------:|
 | Home |
 
