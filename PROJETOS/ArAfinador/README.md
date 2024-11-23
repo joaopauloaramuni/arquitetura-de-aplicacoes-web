@@ -14,6 +14,35 @@ A funcionalidade principal do projeto é a detecção da nota musical gerada pel
 |:--:|:--:|
 | Mizinha | Mizona |
 
+| ![Acima440Hz](imgs/acima440.png) |
+|:--:|
+| Acima de 440Hz |
+
+## Estrutura do Projeto
+A estrutura do projeto é organizada da seguinte maneira:
+
+```
+ArAfinador
+│
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.example.ArAfinador
+│       │       ├── application
+│       │       │   └── ArAfinadorApplication.java
+│       │       └── controller
+│       │           └── ArAfinadorController.java
+│       └── resources
+│           ├── application.properties
+│           ├── static
+│           │   ├── css
+│           │   │   └── style.css
+│           │   └── js
+│           │       └── afinador.js
+│           └── templates
+│               └── home.html
+```
+
 ## Dependências
 
 Abaixo estão as dependências utilizadas no projeto:
