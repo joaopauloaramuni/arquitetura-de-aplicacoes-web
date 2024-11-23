@@ -148,7 +148,7 @@ O código possui um conjunto de frequências de referência pré-definidas para 
 A barra de frequência (`frequencia-bar`) é atualizada para mostrar visualmente a proximidade da frequência detectada em relação ao padrão **A4 (440 Hz)**.
 
 #### Fórmula para Normalização:
-``
+```
 normalizedFrequency = Math.min(Math.max(frequency / 440, 0), 1) * 100
 ```
 
