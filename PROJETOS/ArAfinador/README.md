@@ -14,8 +14,8 @@ A funcionalidade principal do projeto é a detecção da nota musical gerada pel
 |:--:|:--:|
 | Mizinha | Mizona |
 
-| ![Acima440Hz](imgs/acima440.png) |
-|:--:|
+| <img src="imgs/acima440.png" alt="acima440" width="400"/> |
+|:--------------:|
 | Acima de 440Hz |
 
 ## Estrutura do Projeto
