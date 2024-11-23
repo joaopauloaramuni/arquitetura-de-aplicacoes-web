@@ -10,9 +10,9 @@ A funcionalidade principal do projeto é a detecção da nota musical gerada pel
 |:--:|
 | Tela Inicial - Home |
 
-| ![Mizinha](imgs/mizinha.png) | ![Mizona](imgs/mizona.png) |
-|:--:|:--:|
-| Mizinha | Mizona |
+| <img src="imgs/mizinha.png" alt="Mizinha" width="400"/> | <img src="imgs/mizona.png" alt="Mizona" width="400"/> |
+|:-------:|:------:|
+| Mizinha | Mizona | 
 
 | <img src="imgs/acima440.png" alt="acima440" width="400"/> |
 |:--------------:|
