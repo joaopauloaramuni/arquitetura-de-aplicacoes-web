@@ -6,9 +6,9 @@ A funcionalidade principal do projeto é a detecção da nota musical gerada pel
 
 ## Captura de Tela
 
-| ![Tela Inicial - Home](imgs/home.png) |
-|:--:|
-| Tela Inicial - Home |
+| <img src="imgs/home.png" alt="home" width="400"/> |
+|:----:|
+| Home |
 
 | <img src="imgs/mizinha.png" alt="Mizinha" width="400"/> | <img src="imgs/mizona.png" alt="Mizona" width="400"/> |
 |:-------:|:------:|
