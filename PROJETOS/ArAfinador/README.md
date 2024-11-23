@@ -6,17 +6,13 @@ A funcionalidade principal do projeto é a detecção da nota musical gerada pel
 
 ## Captura de Tela
 
-| <img src="imgs/home.png" alt="home" width="400"/> |
-|:----:|
-| Home |
+| <img src="imgs/home.png" alt="Home" width="600"/> | <img src="imgs/acima440.png" alt="Acima440Hz" width="600"/> |
+|:-------:|:------:|
+| Home | Acima de 440Hz | 
 
-| <img src="imgs/mizinha.png" alt="Mizinha" width="400"/> | <img src="imgs/mizona.png" alt="Mizona" width="400"/> |
+| <img src="imgs/mizinha.png" alt="Mizinha" width="600"/> | <img src="imgs/mizona.png" alt="Mizona" width="600"/> |
 |:-------:|:------:|
 | Mizinha | Mizona | 
-
-| <img src="imgs/acima440.png" alt="acima440" width="400"/> |
-|:--------------:|
-| Acima de 440Hz |
 
 ## Estrutura do Projeto
 A estrutura do projeto é organizada da seguinte maneira:
