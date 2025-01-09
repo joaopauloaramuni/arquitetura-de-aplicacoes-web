@@ -24,6 +24,16 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 
 - 1°Sem 2024
 
+-----
+
+### Sumário:
+- [Aulas em PDF](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/PDF)
+- [Atalhos](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/ATALHOS)
+- [Trabalhos](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/TRABALHOS)
+- [Projetos com Spring Boot](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/PROJETOS)
+- [Docker CLI Cheat Sheet](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/DOCKER%20CLI%20CHEAT%20SHEET)
+
+#### Links úteis:
 https://www.jetbrains.com/idea/download/
 <br>https://www.jetbrains.com/shop/eform/students
 <br>https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
@@ -47,7 +57,9 @@ https://www.jetbrains.com/idea/download/
 <br>https://grafana.com/
 <br>https://site.mockito.org/
 
-Comandos Docker úteis:
+-----
+
+#### Comandos Docker úteis:
 
 https://docs.docker.com/get-started/docker_cheatsheet.pdf
 <br>https://www.docker.com/products/docker-desktop/
@@ -250,3 +262,5 @@ docker history: Mostra o histórico de camadas de uma imagem.
 </td>
 </tr>
 </table>
+
+-----
