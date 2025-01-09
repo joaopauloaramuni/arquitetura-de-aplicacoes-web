@@ -1,4 +1,4 @@
-# arquitetura-de-aplicacoes-web
+-----
 
 <div align="center">
     <table>
@@ -34,28 +34,28 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [Docker CLI Cheat Sheet](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/DOCKER%20CLI%20CHEAT%20SHEET)
 
 #### Links úteis:
-https://www.jetbrains.com/idea/download/
-<br>https://www.jetbrains.com/shop/eform/students
-<br>https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
-<br>https://docs.oracle.com/en/java/javase/17/
-<br>https://start.spring.io/
-<br>https://docs.spring.io/spring-boot/documentation.html
-<br>https://www.primefaces.org/
-<br>https://mantine.dev/
-<br>https://insomnia.rest/download
-<br>https://www.postman.com/downloads/
-<br>https://drawio.com/
-<br>https://astah.net/products/free-student-license/
-<br>https://plantuml.com/
-<br>https://www.figma.com/pt-br/templates/
-<br>https://www.docker.com/products/docker-desktop/
-<br>https://fly.io/
-<br>https://www.mongodb.com/try/download/community
-<br>https://www.mongodb.com/products/tools/compass
-<br>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
-<br>https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS
-<br>https://grafana.com/
-<br>https://site.mockito.org/
+- [IntelliJ IDEA Download](https://www.jetbrains.com/idea/download/)
+- [JetBrains Student License](https://www.jetbrains.com/shop/eform/students)
+- [Java SE Development Kit 17 Archive Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Java SE 17 Documentation](https://docs.oracle.com/en/java/javase/17/)
+- [Spring Initializr](https://start.spring.io/)
+- [Spring Boot Documentation](https://docs.spring.io/spring-boot/documentation.html)
+- [PrimeFaces](https://www.primefaces.org/)
+- [Mantine](https://mantine.dev/)
+- [Insomnia Download](https://insomnia.rest/download)
+- [Postman Downloads](https://www.postman.com/downloads/)
+- [Draw.io](https://drawio.com/)
+- [Astah Free Student License](https://astah.net/products/free-student-license/)
+- [PlantUML](https://plantuml.com/)
+- [Figma Templates](https://www.figma.com/pt-br/templates/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Fly.io](https://fly.io/)
+- [MongoDB Community Edition Download](https://www.mongodb.com/try/download/community)
+- [MongoDB Compass](https://www.mongodb.com/products/tools/compass)
+- [PostgreSQL Downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+- [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
+- [Grafana](https://grafana.com/)
+- [Mockito](https://site.mockito.org/)
 
 -----
 
