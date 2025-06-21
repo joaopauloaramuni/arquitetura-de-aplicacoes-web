@@ -138,10 +138,12 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 
 #### 📄 README de projeto:
 
-📘 Exemplo de README de projeto:
+📘 Exemplos de README de projeto:
 
 - 🌐 [Tech Fotebol Clube](https://github.com/ligiabicalho/Tech-Futebol-Clube)
-- :octocat: [GitHub Lígia Bicalho](https://github.com/ligiabicalho)
+  - :octocat: [GitHub Lígia Bicalho](https://github.com/ligiabicalho)  
+- 🌐 [FeeduP-Mobile](https://github.com/FeedUp-Hub/FeeduP-Mobile)
+  - :octocat: [GitHub Fernando Santiago](https://github.com/fsaantiago)
 
 -----
 
