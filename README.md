@@ -33,7 +33,7 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [PlantUML (Diagramas UML)](https://plantuml.com/)
 - [Figma - Templates](https://www.figma.com/pt-br/templates/)
 
----
+-----
 
 ##### ☕ Java e Spring
 
@@ -45,21 +45,21 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [Spring Initializr](https://start.spring.io/)
 - [Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
 
----
+-----
 
 ##### 🎨 Frameworks de interface
 
 - [PrimeFaces](https://www.primefaces.org/)
 - [Mantine](https://mantine.dev/)
 
----
+-----
 
 ##### 🌐 Clientes REST
 
 - [Insomnia REST Client - Downloads](https://insomnia.rest/download)
 - [Postman - Downloads](https://www.postman.com/downloads/)
 
----
+-----
 
 ##### 🐳 Docker, Deploy e Cloud ☁️
 
@@ -69,7 +69,7 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [Heroku](https://www.heroku.com/)
 - [Vercel](https://vercel.com/)
 
----
+-----
 
 ##### 🗃️ Bancos de dados
 
@@ -83,7 +83,7 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 ###### Scripts
 - [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 
----
+-----
 
 ##### 📊 Observabilidade
 
@@ -91,7 +91,7 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [Grafana - GitHub](https://github.com/grafana/grafana)
 - [Prometheus](https://prometheus.io/)
 
----
+-----
 
 ##### 🧪 Testes e qualidade
 
@@ -107,18 +107,26 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [Selenium](https://www.selenium.dev/)
 - [Selenium - GitHub](https://github.com/SeleniumHQ/selenium)
 
----
+-----
 
 ##### 🧹 Análise de código
 
-- [PMD](https://pmd.github.io/)
-- [PMD - GitHub](https://github.com/pmd/pmd)
-- [SonarQube](https://www.sonarsource.com/products/sonarqube/)
-- [SonarQube - GitHub](https://github.com/SonarSource/sonarqube)
-- [JNose](https://jnosetest.github.io/)
-- [JNose - GitHub](https://github.com/arieslab/jnose)
+Ferramentas para análise estatística de código, detecção de *code smells*, métricas de qualidade e identificação de más práticas de programação.
 
----
+- **PMD**: Ferramenta que verifica problemas comuns em código Java, como variáveis não utilizadas, duplicação de código e estilos de codificação.
+  - 🌐 [PMD](https://pmd.github.io/)
+  - :octocat: [PMD - GitHub](https://github.com/pmd/pmd)
+- **SonarQube**: Plataforma para análise contínua de qualidade de código, cobrindo múltiplas linguagens. Avalia bugs, vulnerabilidades e cobertura de testes.
+  - 🌐 [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+  - :octocat: [SonarQube - GitHub](https://github.com/SonarSource/sonarqube)
+- **JNose**: Ferramenta focada na identificação de *test smells* e *design smells* em código Java. Ajuda na compreensão de problemas relacionados à testabilidade e manutenibilidade.
+  - 👃 [JNose](https://jnosetest.github.io/)
+  - :octocat: [JNose - GitHub](https://github.com/arieslab/jnose)
+- **Code Climate**: Ferramenta de análise contínua de qualidade de código que gera métricas como complexidade ciclomática, duplicação, cobertura de testes e *code smells*. Suporta diversas linguagens e se integra com GitHub, GitLab e outros.
+  - 🌐 [Code Climate](https://codeclimate.com/)
+  - :octocat: [Code Climate - GitHub](https://github.com/codeclimate)
+
+-----
 
 ##### 📊 Tendências e pesquisas
 
