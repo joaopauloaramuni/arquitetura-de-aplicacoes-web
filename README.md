@@ -125,6 +125,9 @@ Ferramentas para análise estatística de código, detecção de *code smells*, 
 - **Code Climate**: Ferramenta de análise contínua de qualidade de código que gera métricas como complexidade ciclomática, duplicação, cobertura de testes e *code smells*. Suporta diversas linguagens e se integra com GitHub, GitLab e outros.
   - 🌐 [Code Climate](https://codeclimate.com/)
   - :octocat: [Code Climate - GitHub](https://github.com/codeclimate)
+- **CodeQL**: Plataforma de análise de segurança e qualidade de código da GitHub, que permite executar consultas para detectar vulnerabilidades, bugs e más práticas em diversos tipos de código fonte.
+  - 🌐 [CodeQL](https://securitylab.github.com/tools/codeql)
+  - :octocat: [CodeQL - GitHub](https://github.com/github/codeql)
 
 -----
 
