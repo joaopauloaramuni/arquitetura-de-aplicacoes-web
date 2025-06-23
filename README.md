@@ -116,7 +116,7 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
   - :octocat: [Mercado Pago GitHub oficial](https://github.com/mercadopago)  
   - :octocat: [SDK Java Mercado Pago](https://github.com/mercadopago/sdk-java)  
   - :octocat: [Checkout Payment Sample Mercado Pago](https://github.com/mercadopago/checkout-payment-sample)  
-  - :octocat: [Projeto de exemplo com Mercado Pago (GitHub)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS/MP_Checkout_Pro)
+  - :octocat: [Projeto de exemplo com Mercado Pago (GitHub)](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/PROJETOS/MP_Checkout_Pro)
   - 📚 [Documentação oficial do Mercado Pago](https://www.mercadopago.com.br/developers/pt/reference)
 
 - 🌐 [Stripe - Plataforma de pagamentos](https://stripe.com/br)  
