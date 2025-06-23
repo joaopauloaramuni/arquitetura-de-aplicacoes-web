@@ -87,9 +87,9 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 
 ##### 📊 Observabilidade
 
-- [Grafana](https://grafana.com/)
+- 🌐 [Grafana](https://grafana.com/)
 - :octocat: [Grafana - GitHub](https://github.com/grafana/grafana)
-- [Prometheus](https://prometheus.io/)
+- 🌐 [Prometheus](https://prometheus.io/)
 - :octocat: [Prometheus - GitHub](https://github.com/prometheus/prometheus)
 
 -----
