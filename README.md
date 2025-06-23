@@ -109,6 +109,29 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 
 -----
 
+##### 💰 Pagamentos e APIs Financeiras
+
+- [Stripe - Plataforma de pagamentos](https://stripe.com/br)  
+- :octocat: [stripe-java - SDK oficial Java](https://github.com/stripe/stripe-java)
+
+-----
+
+##### 📞 Comunicação via API
+
+- [Twilio - Plataforma de comunicação (SMS, voz, WhatsApp etc.)](https://www.twilio.com/pt-br)  
+- :octocat: [twilio - Repositório oficial no GitHub](https://github.com/twilio)  
+- 📚 [Twilio Docs](https://www.twilio.com/docs)
+
+-----
+
+##### 📘 APIs RESTful e Documentação
+
+- [Swagger - Ferramenta para design, documentação e testes de APIs REST](https://swagger.io/)  
+- 📚 [Swagger Docs](https://swagger.io/docs/)  
+- :octocat: [swagger-api - Repositório oficial no GitHub](https://github.com/swagger-api)
+
+-----
+
 ##### 🧹 Análise de código
 
 Ferramentas para análise estatística de código, detecção de *code smells*, métricas de qualidade e identificação de más práticas de programação.
