@@ -18,6 +18,7 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [Trabalhos](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/TRABALHOS)
 - [Projetos com Spring Boot](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/PROJETOS)
 - [Docker CLI Cheat Sheet](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/DOCKER%20CLI%20CHEAT%20SHEET)
+- [Plano de Ensino](https://github.com/joaopauloaramuni/arquitetura-de-aplicacoes-web/tree/main/PLANO%20DE%20ENSINO)
 
 #### Links úteis:
 
