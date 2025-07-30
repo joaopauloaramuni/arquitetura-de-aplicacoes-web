@@ -248,6 +248,7 @@ Ferramentas para análise estatística de código, detecção de *code smells*, 
 Relatórios anuais e pesquisas globais ajudam a entender as principais linguagens, ferramentas, salários, preferências e tendências no mercado de desenvolvimento de software. São ótimos para orientar decisões de carreira e identificar habilidades em alta.
 
 - [Dev Skiller Report 2025](https://devskiller.com/it-skills-report/)
+- [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/)
 - [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024/)
 - [JetBrains Developer Ecosystem 2024](https://www.jetbrains.com/pt-br/lp/devecosystem-2024/)
 
