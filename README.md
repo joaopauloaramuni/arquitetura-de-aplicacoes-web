@@ -6,7 +6,7 @@
 
 # Repo Arquitetura de Aplicações Web
 
-![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge&color=007ec6) ![GitHub license](https://img.shields.io/github/license/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge&color=007ec6)  
+![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge) ![GitHub license](https://img.shields.io/github/license/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge&color=007ec6) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/arquitetura-de-aplicacoes-web?style=for-the-badge)  
 
 Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e Análise e Desenvolvimento de Sistemas do Centro Universitário Newton Paiva
 
