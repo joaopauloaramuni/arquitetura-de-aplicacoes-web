@@ -24,6 +24,87 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 
 #### Links úteis:
 
+##### 📚 Referências gerais
+
+###### 🏛️ Arquitetura de Software
+
+- 🧠 [Blog - Martin Fowler](https://martinfowler.com/)
+- 📕 [Padrões de Arquitetura de Aplicações Corporativas - Martin Fowler](https://www.amazon.com.br/Padr%C3%B5es-Arquitetura-Aplica%C3%A7%C3%B5es-Corporativas-Martin-ebook/dp/B07FCPZ2R2)
+- 📕 [Refatoração - 2ª Edição - Aperfeiçoando o design de códigos existentes - Martin Fowler](https://www.amazon.com.br/Refatora%C3%A7%C3%A3o-Aperfei%C3%A7oando-Design-C%C3%B3digos-Existentes/dp/8575227246)
+- 📄 [Blog - Clean Architecture - Robert C. Martin (Uncle Bob)](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)  
+- 📙 [Arquitetura Limpa: o Guia do Artesão Para Estrutura e Design de Software – Robert C. Martin (Uncle Bob)](https://www.amazon.com.br/Arquitetura-Limpa-Artes%C3%A3o-Estrutura-Software/dp/8550804606)
+- 📘 [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions - Gregor Hohpe, Bobby Woolf](https://www.amazon.com.br/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
+- 📗 [Just Enough Software Architecture: A Risk-Driven Approach - George Fairbanks](https://www.amazon.com.br/Just-Enough-Software-Architecture-Risk-Driven/dp/0984618104)
+- 📔 [Introdução à Arquitetura de Design de Software – Paulo Silveira, Guilherme Silveira, Fabio Kung, Guilherme Moreira](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-%C3%A0-Arquitetura-Design-Software/dp/8535250298)
+- 📔 [A Philosophy of Software Design, 2nd Edition - John K. Ousterhout](https://www.amazon.com.br/gp/aw/d/173210221X)
+- 📙 [Designing Software Architectures – Humberto Cervantes & Rick Kazman](https://www.amazon.com.br/Designing-Software-Architectures-Humberto-Cervantes/dp/0138108021)
+- 📗 [Software Architecture in Practice – Len Bass, Paul Clements, Rick Kazman](https://www.amazon.com.br/Software-Architecture-Practice-Len-Bass/dp/0136886094)
+- 📒 [Fundamentos da Arquitetura de Software: Uma abordagem de engenharia – Mark Richards & Neal Ford](https://www.amazon.com.br/dp/8550819859)
+- 📔 [Arquitetura de software: As partes difíceis - Neal Ford, Mark Richards, Pramod Sadalage & Zhamak Dehghani](https://www.amazon.com.br/dp/8550819840)
+- 📙 [Facilitando a Arquitetura de Software: Capacitando equipes para tomar decisões de arquitetura - Andrew Harmel-Law](https://www.amazon.com.br/dp/B0FHJ5CMFC)
+- 📄 [Architectural Styles and the Design of Network-based Software Architectures – Roy Fielding (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)  
+- 📂 [awesome-software-architecture (GitHub)](https://github.com/simskij/awesome-software-architecture)
+- 🛰️ [Thoughtworks Technology Radar](https://www.thoughtworks.com/pt-br/radar)
+  - [PDF - Volume 32 - Abril/2025](https://github.com/joaopauloaramuni/projeto-de-software/blob/main/ARTIGOS/Thoughtworks-Technology-Radar-vol-32-pt.pdf)
+
+###### 🗿 Monólitos vs Microsserviços
+
+- 📕 [Migrando Sistemas Monolíticos para Microsserviços - Sam Newman](https://www.amazon.com.br/dp/6586057043)
+- 📘 [Criando Microsserviços: Projetando sistemas com componentes menores e mais especializados - Sam Newman](https://www.amazon.com.br/dp/6586057884)
+- 📗 [Microsserviços Prontos para Produção: Construindo Sistemas Padronizados em uma Organização de Engenharia de Software - Susan Fowler](https://www.amazon.com.br/dp/8575226215)
+
+###### 🖼️ Modelagem Estrutural e Comportamental
+
+- 📙 [Princípios de Análise e Projeto de Sistemas com UML - Eduardo Bezerra](https://www.amazon.com.br/Princ%C3%ADpios-An%C3%A1lise-Projetos-Sistemas-com/dp/8535226265)
+- 📘 [UML Distilled: A Brief Guide to the Standard Object Modeling Language – Martin Fowler](https://www.amazon.com.br/UML-Distilled-Standard-Modeling-Language/dp/0321193687)
+- 📕 [UML Essencial: Um Breve Guia para a Linguagem-Padrão de Modelagem de Objetos - Martin Fowler](https://www.amazon.com/UML-Essencial-Linguagem-Padrao-Modelagem-Portuguese-ebook/dp/B019IQOFRK)
+- 📒 [Applying UML and Patterns – Craig Larman](https://www.amazon.com.br/Applying-UML-Patterns-Introduction-Object-Oriented/dp/0131489062)
+- 📗 [Fundamentos Do Desenho Orientado A Objeto Com UML - Jones Meilir Page](https://www.amazon.com.br/Fundamentos-Desenho-Orientado-Objeto-Com/dp/8534612439)
+- 📖 [UML Diagram Types - Visual Paradigm (guia ilustrado)](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-diagram-types/)
+
+###### 📐 Padrões de Projeto
+
+- 📕 [Design Patterns: Elements of Reusable Object-Oriented Software – GoF (Gamma, Helm, Johnson, Vlissides)](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+- 📘 [Head First Design Patterns – Eric Freeman & Elisabeth Robson](https://www.amazon.com.br/Head-First-Design-Patterns-Object-Oriented/dp/149207800X)
+- 📗 [Domain-Driven Design Distilled - Vaughn Vernon](https://www.amazon.com.br/Domain-driven-Design-Destilado-Vaughn-Vernon/dp/8550821241)
+- 📂 [design-patterns-for-humans (Explicações simples)](https://github.com/kamranahmedse/design-patterns-for-humans)  
+- 📦 [Refactoring.Guru – Exemplos em múltiplas linguagens](https://github.com/RefactoringGuru)
+- 🦊 [Refactoring.Guru - Design Patterns](https://refactoring.guru/pt-br/design-patterns)
+
+###### ✔️ Qualidade de Projeto
+
+- 📕 [Code Complete – Steve McConnell](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
+- 📘 [Clean Code – Robert C. Martin](https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675)
+- 📔 [The Clean Coder – Robert C. Martin](https://www.amazon.com.br/Codificador-Limpo-Bob-Martin/dp/8576086476)
+- 📗 [Design It! – Michael Keeling](https://www.amazon.com.br/Design-Micahel-Keeling/dp/1680502093)
+- 📂 [awesome-static-analysis](https://github.com/analysis-tools-dev/static-analysis)  
+
+-----
+
+##### 📖 Periódicos científicos
+- 🗞️ [ACM Transactions on Software Engineering and Methodology](https://dl.acm.org/journal/tosem)
+- 🧪 [Journal of Software Maintenance and Evolution (ACM)](https://dl.acm.org/journal/jsme)
+- 📈 [Journal of Software: Evolution and Process (Wiley)](https://onlinelibrary.wiley.com/journal/20477481)
+- 📄 [IEEE Software - Measuring Software Quality](https://ieeexplore.ieee.org/document/544241)
+- 📖 [IEEE - Transactions on Software Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)
+- 📦 [Requirements Engineering - Springer](https://link.springer.com/journal/766)
+
+-----
+
+##### 🛠️ Ferramentas de desenho e diagramas
+- 🖼️ [Draw.io - Criação e edição de diagramas online](https://drawio.com/)
+- 🎓 [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
+- 📐 [PlantUML - Diagramas UML](https://plantuml.com/)
+- 📖 [PlantUML - Guia oficial](https://plantuml.com/guide)
+- 🧜 [Mermaid - Criação de diagramas a partir de texto Markdown](https://mermaid.js.org/)
+- 🎨 [Figma - Design colaborativo de interfaces e protótipos](https://www.figma.com/pt-br/)
+- 🌟 [StarUML - Ferramenta para modelagem UML e design de software](https://staruml.io/)
+- 🧩 [C4 Model – Modelo para visualização de arquitetura de software](https://c4model.com/)
+- 🗺️ [dbdiagram.io - Criação e visualização de diagramas ER online](https://dbdiagram.io/home)
+- 🧱 [BR Modelo Web - Ferramenta brasileira para modelagem de dados](https://www.brmodeloweb.com/lang/pt-br/index.html)
+
+-----
+
 ##### 🛠️ IDEs e Ferramentas
 
 ###### ⚙️ Ambientes de desenvolvimento para produtividade e depuração  
@@ -82,18 +163,6 @@ O ecossistema Spring oferece suporte completo para criação de aplicações Jav
 ###### Spring Boot
 - [🚀 Spring Initializr - Gerador de projetos Spring](https://start.spring.io/)
 - [📘 Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
-
------
-
-##### 🖼️ Ferramentas de design e diagramas
-
-###### 📐 Criação visual de fluxos, arquitetura e UML  
-Essas ferramentas facilitam a representação visual de sistemas, fluxos de dados, entidades e componentes, sendo úteis tanto na fase de modelagem quanto na documentação de projetos.
-
-- [Draw.io (Diagramas)](https://drawio.com/)
-- [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
-- [PlantUML (Diagramas UML)](https://plantuml.com/)
-- [Figma - Templates](https://www.figma.com/pt-br/templates/)
 
 -----
 
