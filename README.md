@@ -420,15 +420,15 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 -----
 
-##### 📄 README de projeto:
+#### 📄 README de projeto:
 
 Esta seção reúne um **template** construído por mim e **exemplos** reais de READMEs para ajudar você a estruturar, documentar e apresentar seus projetos de forma clara, organizada e profissional.
 
-###### 📕 Template de README de projeto:
+##### 📕 Template de README de projeto:
 
 - :octocat: [Template de README](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/TEMPLATES/template_README.md)
 
-###### 📘 Exemplos de README de projeto:
+##### 📘 Exemplos de README de projeto:
 
 - 🌐 [Tuscan](https://github.com/Berohlfs/BachelorsThesisSoftwareEngineering)
   - :octocat: [GitHub Bernardo Rohlfs](https://github.com/Berohlfs)
@@ -514,19 +514,19 @@ docker stats
 
 -----
 
-### 💬 Exemplo de comentário em Code Review
+#### 💬 Exemplo de comentário em Code Review
 
 > **Obs**: Para iniciar um code review, você precisa abrir um pull request (PR) no repositório. O PR é a solicitação para mesclar suas alterações no branch principal. Depois de aberto, você e seus colegas podem navegar pelas mudanças, clicar nas linhas de código para adicionar comentários e discutir melhorias diretamente no PR.
 
 -----
 
-#### 🔍 Sugestão de melhoria
+##### 🔍 Sugestão de melhoria
 
 A classe `UserService` atualmente contém lógica de acesso direto ao banco de dados usando `EntityManager`. Para seguir o princípio da **separação de responsabilidades** e melhorar a testabilidade do código, considere **extrair essa lógica para um DAO (`UserDAO`)**.
 
 -----
 
-#### Benefícios da mudança
+##### Benefícios da mudança
 
 - Redução do acoplamento entre a camada de serviço e a persistência.  
 - Facilidade para substituir a implementação do DAO futuramente (por exemplo, ao trocar Hibernate por outra tecnologia).  
@@ -534,7 +534,7 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 
 -----
 
-#### 📌 Sugestão de implementação
+##### 📌 Sugestão de implementação
 
 - Criar uma classe `UserDAO` com métodos como `findById(Long id)` e `save(User user)`.  
 - Injetar essa classe no `UserService`.  
@@ -542,13 +542,13 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 
 -----
 
-#### 📚 Link oficial da documentação do GitHub
+##### 📚 Link oficial da documentação do GitHub
 
 - [Commenting on a pull request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
 
 -----
 
-#### 🏗️ Roadmap Code Review
+##### 🏗️ Roadmap Code Review
 
 Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
 
@@ -562,7 +562,7 @@ Veja também:
 
 -----
 
-### 🏛️ Entendendo a Arquitetura de um App Spring Boot
+#### 🏛️ Entendendo a Arquitetura de um App Spring Boot
 
 A arquitetura de um app **Spring Boot** é como um ecossistema bem orquestrado, onde cada componente tem um papel essencial para garantir a **escalabilidade**, **manutenibilidade** e **organização** do sistema.
 
@@ -572,19 +572,19 @@ Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 
 -----
 
-#### 🍃 Arquitetura Spring Boot
+##### 🍃 Arquitetura Spring Boot
 
 <div align="center">
   <img align="center" width="600px" alt="arquitetura" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/arquitetura_spring.gif"/>
 </div>
 
-##### 📚 Referências
+###### 📚 Referências
 
 - 🎬 Gif criado por [Victor Targino Von Melentovytch](https://www.linkedin.com/posts/vtargino_java-spring-springboot-activity-7353401071878184961-7-eR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAT1ji8BieepxAWNeP6atgR296ccyrPEeqk)
 
 -----
 
-#### 🧩 Componentes da Arquitetura Spring Boot
+###### 🧩 Componentes da Arquitetura Spring Boot
 
 | Componente | Descrição |
 |------------|-----------|
@@ -607,7 +607,7 @@ Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 
 -----
 
-### 🚀 Domine o Spring Boot em 2025
+#### 🚀 Domine o Spring Boot em 2025
 
 O Spring Boot continua sendo uma das ferramentas mais poderosas e utilizadas por desenvolvedores Java. Sua proposta de simplificar o desenvolvimento de aplicações robustas e prontas para produção o tornou o padrão de fato no desenvolvimento backend moderno.
 
@@ -617,7 +617,7 @@ O roadmap abaixo vai te guiar desde os conceitos fundamentais até os tópicos m
 
 -----
 
-#### 🍃 Roadmap Spring Boot
+##### 🍃 Roadmap Spring Boot
 
 Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
 
@@ -625,7 +625,7 @@ Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimen
   <img align="center" alt="roadmap" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/spring-boot-roadmap.png"/>
 </div>
 
-##### 📚 Referências
+###### 📚 Referências
 
 - 📘 [Spring Boot Roadmap 2025 – AmigosCode](https://amigoscode.com/blogs/spring-boot-roadmap-2025)  
 - 📗 [Spring Boot Roadmap – roadmap.sh](https://roadmap.sh/spring-boot)  
