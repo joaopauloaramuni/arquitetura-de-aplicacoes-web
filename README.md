@@ -53,6 +53,13 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - 📘 [Criando Microsserviços: Projetando sistemas com componentes menores e mais especializados - Sam Newman](https://www.amazon.com.br/dp/6586057884)
 - 📗 [Microsserviços Prontos para Produção: Construindo Sistemas Padronizados em uma Organização de Engenharia de Software - Susan Fowler](https://www.amazon.com.br/dp/8575226215)
 
+###### 🧩 C4 Model e Structurizr
+
+- 🧩 [C4 Model – Modelo para visualização de arquitetura de software](https://c4model.com/)
+- 🏗️ [Visualising Software Architecture – Simon Brown (Leanpub)](https://leanpub.com/visualising-software-architecture)
+- 📄 [Public Training Handbook 2024 (C4 Model) – Simon Brown](https://static.simonbrown.je/pth2024-c4.pdf)
+- 🧱 [Structurizr – Modelagem arquitetural baseada no C4 Model](https://structurizr.com/)
+
 ###### 🖼️ Modelagem Estrutural e Comportamental
 
 - 📙 [Princípios de Análise e Projeto de Sistemas com UML - Eduardo Bezerra](https://www.amazon.com.br/Princ%C3%ADpios-An%C3%A1lise-Projetos-Sistemas-com/dp/8535226265)
