@@ -22,8 +22,11 @@ O SecureLoginPUC é um projeto de aplicação web que implementa um sistema de l
 │       │       │   ├── SecurityConfig.java
 │       │       │   │   └── Configurações do Spring Security
 │       │       │   │
-│       │       │   └── UserConfig.java
-│       │       │       └── Configuração dos usuários da aplicação
+│       │       │   ├── UserConfig.java
+│       │       │   │   └── Configuração dos usuários e chaves do reCAPTCHA
+│       │       │   │
+│       │       │   └── RecaptchaFilter.java
+│       │       │       └── Filtro responsável pela validação do reCAPTCHA
 │       │       │
 │       │       ├── 🎮 controller
 │       │       │   └── SecureLoginController.java
@@ -43,13 +46,16 @@ O SecureLoginPUC é um projeto de aplicação web que implementa um sistema de l
 │       │           ├── UserService.java
 │       │           │   └── Serviço responsável pelo gerenciamento dos usuários
 │       │           │
-│       │           └── PasswordRecoveryService.java
-│       │               └── Serviço responsável pela recuperação de senha
+│       │           ├── PasswordRecoveryService.java
+│       │           │   └── Serviço responsável pela recuperação de senha
+│       │           │
+│       │           └── RecaptchaService.java
+│       │               └── Serviço responsável pela validação do Google reCAPTCHA
 │       │
 │       └── 📁 resources
 │           │
 │           ├── ⚙️ application.properties
-│           │   └── Configurações da aplicação
+│           │   └── Configurações da aplicação, e-mail e reCAPTCHA
 │           │
 │           ├── 🎨 static
 │           │   │
@@ -78,7 +84,7 @@ O SecureLoginPUC é um projeto de aplicação web que implementa um sistema de l
 │               │   └── Página inicial após autenticação
 │               │
 │               ├── login.html
-│               │   └── Página de login
+│               │   └── Página de login com Google reCAPTCHA
 │               │
 │               ├── recoverpassword.html
 │               │   └── Página de recuperação de senha
