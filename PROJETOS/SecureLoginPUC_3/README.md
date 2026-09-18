@@ -112,6 +112,8 @@ spring.mail.password=hzpjaczvuyuwnjmt
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
+recaptcha.site-key=6LeEwsItAAAAAB4wX5NCt_c72PDo2Vpvds0BOO5Y
+recaptcha.secret-key=6LeEwsItAAAAAKbWz-EEfZn1BxfoanhCeMPTvB_e
 ```
 
 ## Dependências
@@ -186,11 +188,11 @@ A interface gráfica permite ao usuário inserir seus dados de login e, após a 
 
 - **Register**: A página de registro permite que novos usuários criem uma conta na plataforma. Ela inclui campos para inserir **nome completo, e-mail, CPF, RG, endereço, instituição e senha**, garantindo que todas as informações necessárias para cadastro sejam coletadas. A lateral exibe o **logo da PUC Minas**, mantendo a identidade visual da instituição. Abaixo do formulário, há um link para os usuários que já possuem conta, direcionando-os de volta para a página de login.
 
-| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_3/imgs/Login.png" alt="Login" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_3/imgs/Login_v2.png" alt="Login" width="1000"/> |
 |:----------------------------------------------------:|
 |                        Login                         |
 
-| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_3/imgs/Register.png" alt="Register" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_3/imgs/Register_v2.png" alt="Register" width="1000"/> |
 |:-------------------------------------------------------:|
 |                        Register                         |
 
