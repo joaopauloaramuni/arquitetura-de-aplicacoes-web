@@ -216,15 +216,55 @@ Serviço responsável por manter, **em memória** (`ConcurrentHashMap.newKeySet(
 - `boolean isFavorite(String stationUuid)` — verifica se uma estação é favorita.
 - `void toggle(String stationUuid)` — adiciona a estação aos favoritos se ainda não estiver lá, ou remove se já estiver.
 
+## API Radio Browser — Endpoints Úteis
+
+O RadioBrowserAPI (este projeto) consome apenas três endpoints da [Radio Browser API](https://api.radio-browser.info/) — busca avançada de estações, países e estados — mas o webservice oferece bem mais recursos que podem ser úteis para evoluir a aplicação (paginação, filtros extras, tags, idiomas, votos, cliques etc.). Abaixo, um resumo dos endpoints mais relevantes (todos aceitam os prefixos `json/`, `xml/` ou `csv/`, e a base usada aqui é `https://de1.api.radio-browser.info/json`):
+
+### Já usados neste projeto
+
+| Endpoint | Usado por | Descrição |
+|----------|-----------|-----------|
+| `GET /stations/search` | `RadioBrowserApiService.listRadioStations()` | Busca avançada de estações, com filtros como `country`, `state`, `countrycode`, `tag`, `language`, `bitrateMin/Max`, `is_https`, `order`, `reverse`, `limit`, `offset`, `hidebroken`, entre outros. |
+| `GET /countries` | `RadioBrowserApiService.listCountries()` | Lista todos os países cadastrados, com contagem de estações (`stationcount`). Aceita `order`, `reverse`, `hidebroken`, `offset`, `limit`. |
+| `GET /states` | `RadioBrowserApiService.listStates()` | Lista todos os estados/regiões cadastrados. Aceita filtro opcional por `country` na própria URL (`/states/{country}/{filter}`) ou por query. |
+
+### Outros endpoints do webservice (não usados ainda, mas úteis para futuras features)
+
+| Endpoint | Descrição |
+|----------|-----------|
+| `GET /stations/bytag/{tag}`, `/bytagexact/{tag}` | Busca estações por tag (gênero), exata ou parcial. |
+| `GET /stations/bylanguage/{lang}` | Busca estações por idioma. |
+| `GET /stations/bycountrycodeexact/{code}` | Busca estações por código de país (ISO 3166-1 alpha-2), ex.: `BR`. |
+| `GET /stations/topvote/{n}` | As `n` estações mais votadas — ótimo para uma seção "Destaques". |
+| `GET /stations/topclick/{n}` | As `n` estações mais clicadas. |
+| `GET /stations/lastclick/{n}` | Estações clicadas recentemente. |
+| `GET /stations/broken` | Estações que falharam no teste de conexão (útil para checagem/limpeza). |
+| `GET /stations/byuuid?uuids=...` | Busca uma ou mais estações por UUID exato. |
+| `GET /tags` | Lista todas as tags/gêneros disponíveis, com contagem de estações — pode alimentar um filtro por gênero na Home. |
+| `GET /languages` | Lista todos os idiomas disponíveis, com contagem de estações. |
+| `GET /codecs` | Lista todos os codecs disponíveis (MP3, AAC, OGG etc.), com contagem. |
+| `GET /url/{stationuuid}` | Deve ser chamado sempre que o usuário der play em uma estação, para contabilizar o clique oficialmente na API. **Hoje o projeto não chama este endpoint.** |
+| `POST /vote/{stationuuid}` | Registra um voto (like) para a estação — limitado a 1 voto por IP a cada 10 minutos. Poderia complementar o sistema de favoritos local. |
+| `GET /stats` | Estatísticas gerais do servidor (total de estações, tags, idiomas, cliques na última hora/dia etc.). |
+| `GET /servers` | Lista os servidores-espelho (mirrors) da API, para balanceamento/fallback. |
+
+> ⚠️ **Observação importante**: a documentação da Radio Browser API recomenda enviar um `User-Agent` descritivo em todas as requisições (ex.: `RadioBrowserAPI/1.0`), para facilitar a identificação da aplicação pelos mantenedores do serviço. Isso ainda não está implementado no `RestTemplate` usado por `RadioBrowserApiService` e é uma melhoria recomendada.
+
 ## Documentação e Links Úteis
 
-- [API Radio Browser](https://api.radio-browser.info/)
-- [Radio Browser](https://www.radio-browser.info/)
-- [Estações de Rádio](https://de1.api.radio-browser.info/json/stations/search)
+- [API Radio Browser — Documentação oficial](https://api.radio-browser.info/)
+- [Radio Browser — Site do projeto](https://www.radio-browser.info/)
+- [Busca avançada de estações](https://de1.api.radio-browser.info/json/stations/search)
 - [Estações em Minas Gerais](https://de1.api.radio-browser.info/json/stations/search?country=Brazil&state=Minas%20Gerais)
 - [Estação Itatiaia](https://de1.api.radio-browser.info/json/stations/search?name=itatiaia)
 - [Lista de Países](https://de1.api.radio-browser.info/json/countries)
 - [Lista de Estados](https://de1.api.radio-browser.info/json/states)
+- [Lista de Tags/Gêneros](https://de1.api.radio-browser.info/json/tags)
+- [Lista de Idiomas](https://de1.api.radio-browser.info/json/languages)
+- [Lista de Codecs](https://de1.api.radio-browser.info/json/codecs)
+- [Top estações por votos](https://de1.api.radio-browser.info/json/stations/topvote/10)
+- [Estatísticas do servidor](https://de1.api.radio-browser.info/json/stats)
+- [Lista de servidores-espelho](https://de1.api.radio-browser.info/json/servers)
 
 ## Licença
 
